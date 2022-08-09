@@ -1,0 +1,44 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box ;
+}
+
+header{
+    width: 100%;
+    background-color: #57409c ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+
+}
+
+img{
+    width: 140px;
+}
+
+
+
+.container-logo{
+    display: flex;
+    align-items: center;
+}
+
+.menu li{
+    display: inline-block;
+    margin: 0 10px;
+    text-transform: uppercase;
+}
+
+.menu li a{
+    font-size: 24px;
+    text-decoration: none;
+    color: azure;
+    padding: 10px 10px;
+    border-radius: 25px;
+}
+
+.menu li a:hover{
+    background-color: rgba(100, 100, 100, 0.5);
+}

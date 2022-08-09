@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="PT-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Agendamento</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="container-logo">
+            <div class="logo-img"> <img src="img/lucas-goulart-logoalt-removebg-preview.png" alt=""> </div>
+            </div>
+        </div><!-- Container fot the logo-->
+        
+        <div class="menu">
+            <ul>
+                <li><a href="petshow.html">home</a></li>
+                <li><a href="Loja.html">loja</a></li>
+                <li><a href="agendamento.html">agendamento</a></li>
+                <li><a href="contato.html">contato</a></li>
+                <li><a href="adoção.html">adoção</a></li>
+            </ul>
+        </div><!--menu-->
+
+ </header>
+    <h2>Fale com a gente</h2>
+    
+    <form>
+        <label for="nome">Nome:</label> 
+        <input type="text" class="nome" name="nome" id="nome" placeholder="nome completo" required>
+        
+        <hr>
+
+        <label for="mail">e-mail:</label>
+        <input type="email" name="mail" id="mail" required>
+
+        <hr>
+
+        <label for="senha">Senha:</label>
+        <input type="password" name="senha" id="senha" required>
+
+        <hr>        
+
+        <label for="phone">Telefone:</label>
+        <input type="tel" name="phone" id="phone" placeholder="Somente números">
+
+        <hr>
+
+        <label for="Horário">Horário:</label>
+        <select id="Horário" name="Horário">
+            <option>09:00</option>
+            <option>10:00</option>
+            <option>11:00</option>
+            <option>12:00</option>
+            <option>13:00</option>
+            <option>14:00</option>
+            <option>15:00</option>
+            <option>16:00</option>
+            <option>17:00</option>
+            <option>18:00</option>
+        </select>
+
+        <hr>
+
+        <label>Espécie:</label>
+        <input type="radio" name="Grupo">Gato
+        <input type="radio" name="Grupo">Cachorro
+
+        <hr>
+
+        <input type="checkbox" required>
+        <label>Concordo com os termos</label>
+
+        <hr>   
+
+        <label>Cuidados Especiais:</label>        
+        <textarea></textarea>
+
+        <hr>
+
+        <input type="submit" value="Enviar" />        
+    </form>
+    
+</body>
+</html>
