@@ -10,19 +10,20 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 20px 0;
-
+    padding: -20px 0;
+    
 }
 
-img{
-    width: 140px;
+.logo-imagem{
+    width: 120px;
+    
+    
 }
-
-
 
 .container-logo{
     display: flex;
     align-items: center;
+    width: 300px;
 }
 
 .menu li{
@@ -41,4 +42,26 @@ img{
 
 .menu li a:hover{
     background-color: rgba(100, 100, 100, 0.5);
+}
+
+.titulos{
+    font-size: 24px;
+    position: relative;
+    left: 20px;
+}
+
+.table, th, td{
+    border: 2px solid #57409c;
+    background-color: wheat;
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+
+.imagens{
+    width: 300px;
+    height: 300px;
+    border: 5px solid #57409c;
+    display: flex; 
+    justify-content: space-around;
 }
