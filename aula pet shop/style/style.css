@@ -15,9 +15,7 @@ header{
 }
 
 .logo-imagem{
-    width: 120px;
-    
-    
+    width: 120px;    
 }
 
 .container-logo{
@@ -47,21 +45,224 @@ header{
 .titulos{
     font-size: 24px;
     position: relative;
-    left: 20px;
+    left: 10px;
 }
 
-.table, th, td{
+.table tr, td{
     border: 2px solid #57409c;
     background-color: wheat;
-    position: relative;
+    width: 50%;
     top: 30px;
-    left: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .imagens{
-    width: 300px;
-    height: 300px;
-    border: 5px solid #57409c;
-    display: flex; 
-    justify-content: space-around;
+    width: 206px;
+    height: 200px;
+        
 }
+
+.figure_adocao{
+    position: relative;  
+    border: 2px solid #57409c8f;
+    width: 210px;
+    margin-bottom: 20px;
+    background-color: #57409c8f;
+}
+
+*{
+    font-family: arial;
+}
+
+.texto-centralizado{
+    text-align: center;
+    font-size: 30px;
+    color: #57409c;
+
+
+}
+.tabelahome{
+    border: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.layout-adocao{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+body{
+    background-color: #5443881e ;
+}
+
+.listaadocao{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 10px;
+}
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #57409c ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: -20px 0;
+}
+
+.container-footer{
+    display: flex;
+    align-items: center;
+    width: 150px;
+
+}
+
+.footer-menu ul{
+    margin-left: 100px;
+    display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 60%;
+
+}
+
+.footer-menu a{
+    font-size: 15px;
+    color: azure;
+    padding: 10px 10px;
+    border-radius: 25px;
+}
+
+.footer-menu li{
+    font-size: 15px;
+    color: azure;
+    padding: 10px 10px;
+    border-radius: 25px;
+    text-decoration: underline;
+}
+
+.agendamento{
+    height: min-content;
+}
+
+
+.form-agendamento{
+    
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border: 2px solid #57409c;
+    margin-bottom: 50px;
+    line-height: 2;
+}
+
+textarea{
+
+    width: 250px;
+    
+}
+
+.form-contato{
+    border: 2 solid #5443881e;
+    width: 40%;
+    margin-left: auto;
+    margin-right: 60px;
+    display: flex;
+    font-size: 20px;
+    
+}
+
+.form-contato, form, input{
+    line-height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    gap: 10px;
+}
+
+.contatosloja{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.separadorcontato{
+    display: flex;
+    align-items: stretch;
+    margin-bottom: 60px;
+}
+
+.escrita {
+    width: 70%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 3px solid #57409c8f ;
+    border-radius: 50px;
+    background: #57409c77;
+}
+
+.escrita, p, u{
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.main{
+    width: 100%;
+     max-width: 1200px;
+     height: auto;
+     margin: 0 auto;
+     margin-top: 50px;
+     margin-bottom: 50px;
+}
+
+.content-cards{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    width: 250px;
+    height: auto;
+    border: 3px solid grey;
+    margin: 20px;
+    padding: 10px;
+}
+
+.card > .imagem-produto{
+    width: 100%;
+}
+
+.card > .tituloss{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.card > .botao-comprar{
+    width: 100%;
+    height: 30px;
+    background-color: rgba(4, 156, 4, 0.849);
+    color: white;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    justify-content: end;
+
+}
+    
+
